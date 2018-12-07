@@ -1,0 +1,99 @@
+.centraliza {
+  height: 100%;
+  width: 100%;
+}
+
+.configs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ui-widget { font-size: 0.8em }
+
+
+.configs1 {
+  display: flex;
+  padding-top: 130px;
+  padding-bottom: 185px;
+  background-color: rgb(240, 235, 235);
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ui-jqgrid.ui-jqgrid-bootstrap {
+  border: 2px solid #030405;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption {
+  background-color: #0f0f0f;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-hdiv {
+  background-color: #c7c8cc;
+}
+
+.ui-search-input > input::-ms-clear {
+  display: none;
+}
+
+.conteudo {
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+#form1 {
+  display:none;
+}
+#adicionarContato {
+  display: none;
+}
+
+button {
+  border: 1px solid #7c7a7a;
+  background: rgba(180, 177, 179, 0.667);
+  
+}
+button:hover {
+	border: 2px solid #292a2b;
+	color: #111111;
+	background: rgba(226, 226, 226, 0.667);
+}
+
+.carrosel {
+  vertical-align: middle;
+  width: 1440px;
+  height: 576px;
+}

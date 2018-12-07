@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Tela de Cadastro</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="text-center configs1">
+    <div class=" form-signin">
+      <form action=index.php method=post>
+        <img class="mb-4" src="http://www.seti.com.br/wp-content/uploads/2018/07/Sem-t%C3%ADtulo-2-300x136.png" alt="" width="152" height="72">
+        <h2 class="form-signin-heading"> Cadastre-se </h2>
+        <br>
+        <label for="idUsuario" class="sr-only">Usuario</label>
+        <input type="text" id="nome" class="form-control" placeholder="Nome do Usuario" >
+        <br>
+        <label for="idLogin" class="sr-only">Login</label>
+        <input type="text" id="login" class="form-control" placeholder="Login" >
+        <br>
+        <label for="idSenha" class="sr-only">Password</label>
+        <input type="password" id="senha" class="form-control" placeholder="Password" >
+        <div class="checkbox">
+        </div>
+        <br>
+        <button class="btn btn-dark" onclick="cad()" type="button">Cadastrar</button>
+        <form action="index.php">
+          <button class="btn btn-dark" type="submit">Voltar</button>
+        </form>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
